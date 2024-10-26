@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(108, 108, 108);
+}
+.navbar-brand{
+    width: 100px;
+    height: 100%;
+}
+.custom-color{
+    color: rgb(1, 1, 125);
+    /* font-style: italic; */
+}
+.info{
+    display: flex;
+    justify-content: center;
+    color:rgb(1, 1, 125);
+    font-size:30px;
+    text-transform: uppercase;
+}
+.info-p{
+    display: flex;
+    justify-content: center;
+}
+.modal-img {
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 80vh; /* Limit the height of the zoomed image */
+}
+/* .tyre{
+    width: 10px;  
+    height: 10px; 
+    object-fit: cover;
+} */
+.tyre img {
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.tyre img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Optional: Add shadow and smoothness */
+.tyre img:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+    transform: scale(1.1); /* Scale up on hover */
+}
+.tyre img {
+    width: 150px; /* Set a fixed size */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .tyre img {
+        width: 120px;
+        height: 120px;
+    }
+}

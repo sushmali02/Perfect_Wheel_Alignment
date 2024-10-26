@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="icon" href="image/perfect _logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Main Content Styles */
+        .contact{
+            max-width: 1200px;
+            margin: 10px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .contact .logo{
+            width: 100px;
+            height: 100px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .container h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .container p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .service {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            flex: 0 1 calc(30% - 20px);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        .service h3 {
+            margin-top: 0;
+            font-size: 2rem;
+            color: #555;
+        }
+        .service img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <!-- Modal for Profile -->
+<div id="profile"></div>
+
+
+    <div class="container mt-5">
+        <h2 style="color: rgb(1, 1, 125);">Welcome to Perfect Wheel Tech Care and Alignment</h2>
+	<p class="fw-bold">Address:-Shahunagar,VITA.</p>
+        <p>Explore our expert services for wheel alignment and tire care to keep your vehicle running smoothly.</p>
+
+        <div class="services">
+            <div class="service">
+                <img src="image/service/a1.jpeg" alt="Wheel Alignment">
+                <h3>Wheel Alignment</h3>
+                <p>Ensure precise alignment for optimal handling and tyre longevity.</p>
+            </div>
+            <div class="service">
+                <img src="image/service/a2.jpeg" alt="Tyre Installation">
+                <h3>Tyre Installation</h3>
+                <p>Professional installation of new tyres for safety and performance.</p>
+            </div>
+            <div class="service">
+                <img src="image/service/a3.jpeg" alt="Tyre Rotation">
+                <h3>Tyre Rotation</h3>
+                <p>Regular rotation to extend tyre life and maintain even wear.</p>
+            </div>
+            <div class="service">
+                <img src="image/service/a4.jpeg" alt="Wheel Balancing">
+                <h3>Wheel Balancing</h3>
+                <p>Ensure balanced wheels for a smoother and safer ride.</p>
+            </div>
+            <div class="service">
+                <img src="image/service/a5.jpeg" alt="Tyre Repair">
+                <h3>Tyre Repair</h3>
+                <p>Expert repair services to fix punctures and other tyre damage.</p>
+            </div>
+            <div class="service">
+                <img src="image/service/a6.jpeg" alt="Custom Wheels">
+                <h3>Custom Wheels</h3>
+                <p>Explore our selection of custom wheels to enhance your vehicle's appearance.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div id="Contact" class="contact">
+        <h1>Contact</h1> 
+        <div><a href="contact.html"><img src="insta.png" alt="" class="logo"></a></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Perfect Wheel Tech Care and Alignment. All rights reserved.</p>
+    </footer> -->
+
+    <footer class="bg-dark text-light pt-5 pb-4">
+        <div class="container text-center text-md-left bg-dark">
+          <div class="row text-center text-md-left">
+            
+            <!-- About Us Section -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">About Us</h5>
+              <p>We are a leading wheel alignment service company, established 5 years ago in Vita, specializing in advanced alignment solutions for a wide range of vehicles.</p>
+            </div>
+      
+            <!-- Quick Links Section -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+              <p><a href="index.html" class="text-light" style="text-decoration: none;">Home</a></p>
+              <p><a href="service.html" class="text-light" style="text-decoration: none;">Services</a></p>
+              <p><a href="about.html" class="text-light" style="text-decoration: none;">About</a></p>
+              <p><a href="contact.html" class="text-light" style="text-decoration: none;">Contact</a></p>
+            </div>
+      
+            <!-- Contact Section -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+              <p><i class="fas fa-home mr-3"></i> Vita, Maharashtra, India</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@wheelalignment.com</p>
+              <p><i class="fas fa-phone mr-3"></i> +91 98765 43210</p>
+            </div>
+      
+            <!-- Social Media Section -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img src="L_image/foot_img.webp" alt="" class="image-fluid" style="width: 70%; height: 70%;">
+            </div>
+          </div>
+      
+          <hr class="mb-4">
+      
+          <!-- Footer Bottom -->
+          <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+              <p class="text-light">© 2024 Wheel Alignment Company. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+              <p class="text-light text-right">Designed by <a href="#" class="text-warning" style="text-decoration: none;">YourCompany</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <!-- Font Awesome for Icons -->
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
